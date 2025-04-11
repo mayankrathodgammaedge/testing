@@ -150,4 +150,8 @@ export class HomePage {
     await this.page.locator('#datepicker').fill('23/02/98');
     await this.page.locator('').click();
   }
+
+  async clickUploadFileButton(){
+    await this.page.getByRole('button', { name: "Upload Single File" }).click();
+  }
 }

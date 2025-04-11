@@ -25,5 +25,6 @@ test('Auto fill the automation form with random data', async ({ page }) => {
   await homePage.clickPopUpButton();
   await homePage.clickOnPagination();
   await homePage.clickOnTableChecbox();
+  await homePage.clickUploadFileButton();
 });
 
